@@ -4,13 +4,11 @@ import java.util.List;
 import lombok.RequiredArgsConstructor;
 import mate.academy.springbootintrohw01.model.Book;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import mate.academy.springbootintrohw01.repository.BookRepository;
 import mate.academy.springbootintrohw01.service.BookService;
 
 @Service
 @RequiredArgsConstructor
-@Transactional
 public class BookServiceImpl implements BookService {
     private final BookRepository bookRepository;
 
