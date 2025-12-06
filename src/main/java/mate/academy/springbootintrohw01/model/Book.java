@@ -27,4 +27,5 @@ public class Book {
 
     @Column(unique = true)
     private String description;
+
 }
